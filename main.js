@@ -7,7 +7,7 @@ function search() {
 }
 function displaySearchResults(searchTerm) {
     // Array of URLs of your HTML pages
-    const pageUrls = ['/index.html', '/bharath.html', '/ela.html']; // Add all your page URLs here
+    const pageUrls = ['./index.html', './bharath.html', './ela.html']; // Add all your page URLs here
 
     let allResults = [];
     for (let url of pageUrls) {
