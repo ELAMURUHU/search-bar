@@ -48,7 +48,7 @@ function searchInPage(htmlContent, searchTerm) {
     const elements = doc.querySelectorAll('p, h1, h2, h3, h4, h5, h6, img'); // Include img tags
 
     const results = [];
-    console.log(results);
+    console.log("RESULTS :",results);
     elements.forEach(element => {
         if (element.tagName.toLowerCase() === 'img') {
             // If the element is an image, search its 'alt' attribute for the searchTerm
